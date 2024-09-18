@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="all.min.css"> -->
+    <!-- <link rel="stylesheet" href="fontawesome.min.css"> -->
+    <link rel="stylesheet" href="password.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="box">
+                <h2>Login</h2>
+                <div class="inside-box">
+                    <input class="input" type="text" id="txt" placeholder="UserName" required>
+                    <input class="input" type="password" id="password" placeholder="Password" required>
+                    <i id="eye" class="fa-regular fa-eye-slash"></i>
+                    <p id="text">password is <span id="spn"></span></p>
+                    <a class="forget" href="#">Forget Password.?</a>
+                    <div class="roles">
+                        <p><span id="upper"></span>The password must start with an uppercase letter.</p>
+                        <p><span id="symbol"></span>It must contain symbols.</p>
+                        <p><span id="more"></span>It must be longer than 8 characters.</p>
+                    </div>
+                    <button class="btn">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <script src="password.js"></script>
+</body>
+
+</html>
